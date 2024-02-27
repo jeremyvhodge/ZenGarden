@@ -1,4 +1,10 @@
+html{
+    --size: 70px;
 
+    background: conic-gradient(#253844 0.5turn, rgba(255,255,255,0) 0);
+    background-size: var(--size) var(--size);
+	background-color: #1B2932;
+}
 /*grid for the whole page*/
 .page-wrapper {
 	display: grid;
@@ -6,12 +12,30 @@
 	grid-template-rows:auto auto auto;
 }
 
-/* h1 Animation */
+/* h1 Animation */ /*styled*/
+header{
+   background: linear-gradient(45deg, #1B2932, #314a5a);
+   padding:  40px;
+
+	border:  10px solid #314a5a; /*Box around the header */
+	
+}
+
 h1 {
 	animation: moveHeader  6s ease-in-out infinite;
-    padding:  20px;
-    background-color: hsl(0, 0%, 96%); /* Example background color */
-    border:  2px solid #333; /* Box around the header */
+	font-family: "Xanh Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 75px;
+	color:#EEDC82;
+	text-shadow: 0px 3px #1B2932;
+    /* padding:  20px; */
+}
+
+h2{
+	animation: moveHeader  6s ease-in-out infinite;
+	font-family: "Noto Serif", Noto, serif;
+	color:#EEDC82;
 }
 
 @keyframes moveHeader {
