@@ -1,9 +1,20 @@
+html{
+  background-color:#1B2932;
+}
 h1{
-  font: "Xanh Mono", monospace;
+  font: "Xanh Mono", Xanh, monospace;
 }
 h2{
-  font: "Noto Serif", serif;
+  font: "Noto Serif", Noto, serif;
 }
 p{
   font:"Times New Roman", Times, serif;
+}
+
+html{
+  background-color:#1B2932;
+}
+
+header{
+  background-color:#07080D;
 }
