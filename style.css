@@ -1,6 +1,6 @@
 html{
     --size: 70px;
-
+	padding:  40px;
     background: conic-gradient(#253844 0.5turn, rgba(255,255,255,0) 0);
     background-size: var(--size) var(--size);
 	background-color: #1B2932;
@@ -17,8 +17,6 @@ header{
    background: linear-gradient(45deg, #1B2932, #314a5a);
    padding:  40px;
 
-	border:  10px solid #314a5a; /*Box around the header */
-	
 }
 
 h1 {
@@ -37,7 +35,16 @@ h2{
 	font-family: "Noto Serif", Noto, serif;
 	color:#EEDC82;
 }
-
+.summary{
+	animation: moveHeader  6s ease-in-out infinite;
+	background: linear-gradient(45deg, #1B2932, #314a5a);
+	padding: 10px;
+}
+p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: auto;
+	color:#EEDC82;
+}
 @keyframes moveHeader {
     0% { transform: translateX(0); }
     25% { transform: translateX(-10px); }
@@ -73,9 +80,10 @@ h3 {
 	position: relative;
 	display: inline-block;
 	padding:  10px;
-	background-color: #fff; /* Ensure the background is solid for the gradient effect */
-	color: #333;
+	background-color: #1B2932; /* Ensure the background is solid for the gradient effect */
+	color: #EEDC82;
 	margin:  20px;
+	font-family: "Noto Serif", Noto, serif;
 	}
 	
 h3::before {
@@ -86,7 +94,7 @@ h3::before {
 	right: -4px;
 	bottom: -4px;
 	z-index: -1;
-	background: linear-gradient(45deg, #f3ec78, #af4261);
+	background: linear-gradient(45deg, #a59483, #554C43);
 	border-radius:  5px; /* Match the border-radius of the h3 for a seamless look */
 	}
 	
