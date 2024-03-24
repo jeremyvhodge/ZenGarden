@@ -16,11 +16,10 @@ html{
 header{
    background: linear-gradient(45deg, #1B2932, #314a5a);
    padding:  40px;
-
+   /* animation: moveHeader  6s ease-in-out infinite; */
 }
 
 h1 {
-	animation: moveHeader  6s ease-in-out infinite;
 	font-family: "Xanh Mono", monospace;
 	font-weight: 400;
 	font-style: normal;
@@ -31,19 +30,20 @@ h1 {
 }
 
 h2{
-	animation: moveHeader  6s ease-in-out infinite;
+
 	font-family: "Noto Serif", Noto, serif;
 	color:#EEDC82;
 }
 .summary{
-	animation: moveHeader  6s ease-in-out infinite;
-	background: linear-gradient(45deg, #1B2932, #314a5a);
+	/* animation: moveHeader  6s ease-in-out infinite; */
+	background: #314a5a;
 	padding: 10px;
 }
 p{
 	font-family: "Times New Roman", Times, serif;
 	font-size: auto;
 	color:#EEDC82;
+
 }
 @keyframes moveHeader {
     0% { transform: translateX(0); }
@@ -80,9 +80,9 @@ h3 {
 	position: relative;
 	display: inline-block;
 	padding:  10px;
-	background-color: #1B2932; /* Ensure the background is solid for the gradient effect */
+	background: linear-gradient(45deg, #1B2932, #314a5a);
 	color: #EEDC82;
-	margin:  20px;
+	padding:  20px;
 	font-family: "Noto Serif", Noto, serif;
 	}
 	
@@ -94,7 +94,6 @@ h3::before {
 	right: -4px;
 	bottom: -4px;
 	z-index: -1;
-	background: linear-gradient(45deg, #a59483, #554C43);
 	border-radius:  5px; /* Match the border-radius of the h3 for a seamless look */
 	}
 	
@@ -104,3 +103,30 @@ h3::before {
 /*@media only screen and (min-width: 512px) {
 	
 }*/
+#zen-preamble{
+	background-color: #314a5a;
+}
+
+#zen-supporting{
+background-color: #314a5a;
+margin: 20 px;
+
+}
+footer, #sidebar{
+	background-color: #314a5a;
+	margin: 10px;
+}
+hr{
+	border-top: 5px solid #1B2932;
+	border-radius: 10px;
+}
+.sidebar, .design-archives, .zen-resources{
+	background-color: #314a5a;
+	margin: 10px;
+}
+a{
+	color: #EEDC82;
+}
+div{
+	padding: 20px;
+}
