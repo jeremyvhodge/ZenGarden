@@ -101,5 +101,15 @@ h3::before {
 	grid-column: 1/2;
 	
 	}
+
+a {
+color: white;
+
+}
+
+a:visited{
+	color: white;
 	
-}*/
+}
+
+}
