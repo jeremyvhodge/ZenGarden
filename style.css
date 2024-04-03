@@ -16,7 +16,7 @@ html{
 header{
    background: linear-gradient(45deg, #1B2932, #314a5a);
    padding:  40px;
-   /* animation: moveHeader  6s ease-in-out infinite; */
+	animation: moveHeader  6s ease-in-out infinite; 
 }
 
 h1 {
@@ -35,7 +35,7 @@ h2{
 	color:#EEDC82;
 }
 .summary{
-	animation: moveHeader  6s ease-in-out infinite;
+	/*animation: moveHeader  6s ease-in-out infinite;*/
 	background: linear-gradient(45deg, #1B2932, #314a5a);
 	padding: 10px;
 	margin-top: 20px;
@@ -103,16 +103,16 @@ h3::before {
 	}
 
 a {
-color: white;
+color: #eedc80;
 
 }
 
 a:visited {
-	color: white;
+	color: #eedc80;
 	
 }
 li {
-	color: white;
+	color: #eedc80;
 }
 
 }
