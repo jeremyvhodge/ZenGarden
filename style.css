@@ -10,12 +10,13 @@ html{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows:auto auto auto;
+	
 }
 
 /* h1 Animation */ /*styled*/
 header{
-   background: linear-gradient(45deg, #1B2932, #314a5a);
-   padding:  40px;
+   	background: linear-gradient(45deg, #1B2932, #314a5a);
+   	padding:  40px;
 	animation: moveHeader  6s ease-in-out infinite; 
 }
 
@@ -46,6 +47,9 @@ p{
 	color:#EEDC82;
 
 }
+
+
+
 @keyframes moveHeader {
     0% { transform: translateX(0); }
     25% { transform: translateX(-10px); }
