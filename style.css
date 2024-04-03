@@ -107,9 +107,12 @@ color: white;
 
 }
 
-a:visited{
+a:visited {
 	color: white;
 	
+}
+li {
+	color: white;
 }
 
 }
