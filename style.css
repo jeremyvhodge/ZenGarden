@@ -128,13 +128,15 @@ li{
 a{
 	color:#af992b;
 }
-.oval{
-	width: 100px;
-	height: 50px;
-	border-radius: ;
-	background-color: #314a5a;
-	border: 10px solid  #1B2932;
-	margin-top: 20px;
-	padding: 20px;
-	filter: drop-shadow(4px 8px 8px #000000);
+.preamble::before {content:""; 
+	position: relative;
+	top: 100%;
+	left: 120%;
+	right:120%; 
+	display: inline-block;
+	
+	width: 200px;
+    height: 100px;
+    background:#eedc80;
+    border-radius: 50%
 }
