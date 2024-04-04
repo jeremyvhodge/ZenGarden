@@ -111,57 +111,17 @@ h3::before {
 	}
 	
 }
-.preamble {
+.preamble, .explanation, .participation, .benefits, .requirements, footer, .design-archives, .zen-resources, .design-selection{
 	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
+	border: 10px solid  #1B2932;
+	margin-top: 20px;
 	padding: 20px;
 }
-.explanation{
-	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
-	padding: 20px;
+
+li{
+	color:#EEDC82;
+	font-family: "Times New Roman", Times, serif;
 }
-.participation{
-	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
-	padding: 20px;
-}
-.benefits{
-	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
-	padding: 20px;
-}
-.requirements{
-	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
-	padding: 20px;
-}
-footer{
-	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
-	padding: 20px;
-}
-.design-selection{
-	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
-	padding: 20px;
-}
-.design-archives{
-	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
-	padding: 20px;
-}
-.zen-resources{
-	background-color: #314a5a;
-	border: 20px solid  #1B2932;
-	margin-top: 10px;
-	padding: 20px;
+a{
+	color:#1B2932;
 }
