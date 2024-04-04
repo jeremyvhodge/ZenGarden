@@ -4,6 +4,7 @@ html{
     background: conic-gradient(#253844 0.5turn, rgba(255,255,255,0) 0);
     background-size: var(--size) var(--size);
 	background-color: #1B2932;
+	animation: moveHeader  6s ease-in-out infinite;
 }
 /*grid for the whole page*/
 .page-wrapper {
@@ -36,7 +37,7 @@ h2{
 	color:#EEDC82;
 }
 .summary{
-	/*animation: moveHeader  6s ease-in-out infinite;*/
+	animation: moveHeader  6s ease-in-out infinite;
 	background: linear-gradient(45deg, #1B2932, #314a5a);
 	padding: 10px;
 	margin-top: 20px;
@@ -106,4 +107,58 @@ h3::before {
 	
 	}
 	
+}
+.preamble {
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
+}
+.explanation{
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
+}
+.participation{
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
+}
+.benefits{
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
+}
+.requirements{
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
+}
+footer{
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
+}
+.design-selection{
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
+}
+.design-archives{
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
+}
+.zen-resources{
+	background-color: #314a5a;
+	border-top: 20px solid  #1B2932;
+	margin-top: 10px;
+	padding: 20px;
 }
