@@ -126,5 +126,15 @@ li{
 	font-family: "Times New Roman", Times, serif;
 }
 a{
-	color:#1B2932;
+	color:#af992b;
+}
+.oval{
+	width: 100px;
+	height: 50px;
+	border-radius: ;
+	background-color: #314a5a;
+	border: 10px solid  #1B2932;
+	margin-top: 20px;
+	padding: 20px;
+	filter: drop-shadow(4px 8px 8px #000000);
 }
