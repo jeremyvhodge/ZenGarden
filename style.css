@@ -19,6 +19,7 @@ header{
    	background: linear-gradient(45deg, #1B2932, #314a5a);
    	padding:  40px;
 	animation: moveHeader  6s ease-in-out infinite; 
+	border: 20px solid  #314a5a;
 }
 
 h1 {
@@ -41,6 +42,7 @@ h2{
 	background: linear-gradient(45deg, #1B2932, #314a5a);
 	padding: 10px;
 	margin-top: 20px;
+	border: 20px solid  #314a5a;
 }
 p{
 	font-family: "Times New Roman", Times, serif;
@@ -71,6 +73,7 @@ h3 {
 	color: #EEDC82;
 	padding:  20px;
 	font-family: "Noto Serif", Noto, serif;
+	border: 5px solid #1B2932;
 	}
 	
 h3::before {
@@ -110,55 +113,55 @@ h3::before {
 }
 .preamble {
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
 .explanation{
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
 .participation{
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
 .benefits{
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
 .requirements{
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
 footer{
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
 .design-selection{
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
 .design-archives{
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
 .zen-resources{
 	background-color: #314a5a;
-	border-top: 20px solid  #1B2932;
+	border: 20px solid  #1B2932;
 	margin-top: 10px;
 	padding: 20px;
 }
