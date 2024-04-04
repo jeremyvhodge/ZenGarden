@@ -20,6 +20,7 @@ header{
    	padding:  40px;
 	animation: moveHeader  6s ease-in-out infinite; 
 	border: 20px solid  #314a5a;
+	filter: drop-shadow(4px 8px 8px #000000);
 }
 
 h1 {
@@ -43,6 +44,7 @@ h2{
 	padding: 10px;
 	margin-top: 20px;
 	border: 20px solid  #314a5a;
+	filter: drop-shadow(4px 8px 8px #000000);
 }
 p{
 	font-family: "Times New Roman", Times, serif;
@@ -116,6 +118,7 @@ h3::before {
 	border: 10px solid  #1B2932;
 	margin-top: 20px;
 	padding: 20px;
+	filter: drop-shadow(4px 8px 8px #000000);
 }
 
 li{
