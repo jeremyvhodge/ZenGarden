@@ -128,13 +128,13 @@ li{
 a{
 	color:#af992b;
 }
+/*how to make shape go to the side*/
 .preamble::before {content:""; 
 	position: relative;
-	top: 100%;
 	left: 120%;
 	right:120%; 
 	display: inline-block;
-	
+	/*oval shape*/
 	width: 200px;
     height: 100px;
     background:#eedc80;
