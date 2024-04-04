@@ -10,13 +10,14 @@ html{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows:auto auto auto;
+	
 }
 
 /* h1 Animation */ /*styled*/
 header{
-   background: linear-gradient(45deg, #1B2932, #314a5a);
-   padding:  40px;
-   /* animation: moveHeader  6s ease-in-out infinite; */
+   	background: linear-gradient(45deg, #1B2932, #314a5a);
+   	padding:  40px;
+	animation: moveHeader  6s ease-in-out infinite; 
 }
 
 h1 {
@@ -35,7 +36,7 @@ h2{
 	color:#EEDC82;
 }
 .summary{
-	animation: moveHeader  6s ease-in-out infinite;
+	/*animation: moveHeader  6s ease-in-out infinite;*/
 	background: linear-gradient(45deg, #1B2932, #314a5a);
 	padding: 10px;
 	margin-top: 20px;
@@ -46,6 +47,9 @@ p{
 	color:#EEDC82;
 
 }
+
+
+
 @keyframes moveHeader {
     0% { transform: translateX(0); }
     25% { transform: translateX(-10px); }
@@ -102,4 +106,4 @@ h3::before {
 	
 	}
 	
-}
+}*/
