@@ -1,3 +1,13 @@
+@font-face{
+	font-family: nosifer;
+	src:url(nosifer/Nosifer-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+h1 {
+	font-family: nosifer, sans-serif;
+}
+
 html{
     --size: 70px;
 	padding:  40px;
@@ -9,7 +19,7 @@ html{
 /*grid for the whole page*/
 .page-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows:auto auto auto;
 	
 }
@@ -24,7 +34,7 @@ header{
 }
 
 h1 {
-	font-family: "Xanh Mono", monospace;
+	/*font-family: "Xanh Mono", monospace;*/
 	font-weight: 400;
 	font-style: normal;
 	font-size: 75px;
@@ -92,7 +102,25 @@ h3::before {
 
 
 
-@media (min-width: 512px) {
+
+.preamble, .explanation, .participation, .benefits, .requirements, footer, .design-archives, .zen-resources, .design-selection{
+	background-color: #314a5a;
+	border: 10px solid  #1B2932;
+	margin-top: 20px;
+	padding: 20px;
+	filter: drop-shadow(4px 8px 8px #000000);
+}
+
+li{
+	color:#EEDC82;
+	font-family: "Times New Roman", Times, serif;
+}
+a{
+	color:#af992b;
+}
+/*how to make shape go to the side*/
+
+@media screen and (min-width: 512px) {
 	/*grid for the whole page*/
 	.page-wrapper {
 		display: grid;
@@ -111,32 +139,15 @@ h3::before {
 	grid-column: 1/2;
 	
 	}
-	
-}
-.preamble, .explanation, .participation, .benefits, .requirements, footer, .design-archives, .zen-resources, .design-selection{
-	background-color: #314a5a;
-	border: 10px solid  #1B2932;
-	margin-top: 20px;
-	padding: 20px;
-	filter: drop-shadow(4px 8px 8px #000000);
-}
-
-li{
-	color:#EEDC82;
-	font-family: "Times New Roman", Times, serif;
-}
-a{
-	color:#af992b;
-}
-/*how to make shape go to the side*/
-.preamble::before {content:""; 
-	position: relative;
-	left: 120%;
-	right:120%; 
-	display: inline-block;
-	/*oval shape*/
-	width: 200px;
-    height: 100px;
-    background:#eedc80;
-    border-radius: 50%
+	.preamble::before {content:""; 
+		position: relative;
+		left: 120%;
+		right:120%; 
+		display: inline-block;
+		/*oval shape*/
+		width: 200px;
+		height: 100px;
+		background:#eedc80;
+		border-radius: 50%
+	}
 }
