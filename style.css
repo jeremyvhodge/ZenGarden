@@ -4,8 +4,45 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face{
+	font-family: midnight;
+	src:url(midnight-union/Midnight\ Union.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: festival;
+	src:url(halloween-festival/Halloween\ Festival.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: slime;
+	src:url(slime-and-blood/Slime\ and\ Blood.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family: halloween;
+	src:url(halloween-party/Halloween\ Party\ TTF.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
 h1 {
 	font-family: nosifer, sans-serif;
+}
+
+h2 {
+	font-family: midnight, sans-serif;
+}
+
+h3{
+	font-family: festival, sans-serif;
 }
 
 html{
@@ -14,7 +51,7 @@ html{
     background: conic-gradient(#253844 0.5turn, rgba(255,255,255,0) 0);
     background-size: var(--size) var(--size);
 	background-color: #1B2932;
-	animation: moveHeader  6s ease-in-out infinite;
+	/*animation: moveHeader  6s ease-in-out infinite;*/
 }
 /*grid for the whole page*/
 .page-wrapper {
@@ -45,11 +82,11 @@ h1 {
 
 h2{
 
-	font-family: "Noto Serif", Noto, serif;
+	/*font-family: "Noto Serif", Noto, serif;*/
 	color:#EEDC82;
 }
 .summary{
-	animation: moveHeader  6s ease-in-out infinite;
+	/*animation: moveHeader  6s ease-in-out infinite;*/
 	background: linear-gradient(45deg, #1B2932, #314a5a);
 	padding: 10px;
 	margin-top: 20px;
@@ -84,7 +121,7 @@ h3 {
 	background: linear-gradient(45deg, #1B2932, #314a5a);
 	color: #EEDC82;
 	padding:  20px;
-	font-family: "Noto Serif", Noto, serif;
+	/*font-family: "Noto Serif", Noto, serif;*/
 	border: 5px solid #1B2932;
 	}
 	
@@ -120,7 +157,7 @@ a{
 }
 /*how to make shape go to the side*/
 
-@media screen and (min-width: 512px) {
+@media screen and (min-width: 450px) {
 	/*grid for the whole page*/
 	.page-wrapper {
 		display: grid;
