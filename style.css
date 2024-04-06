@@ -25,7 +25,6 @@
 	font-style: normal;
 }
 
-
 @font-face{
 	font-family: halloween;
 	src:url(halloween-party/Halloween\ Party\ TTF.ttf);
@@ -100,8 +99,6 @@ p{
 
 }
 
-
-
 @keyframes moveHeader {
     0% { transform: translateX(0); }
     25% { transform: translateX(-10px); }
@@ -136,10 +133,6 @@ h3::before {
 	border-radius:  5px; /* Match the border-radius of the h3 for a seamless look */
 	}
 	
-
-
-
-
 .preamble, .explanation, .participation, .benefits, .requirements, footer, .design-archives, .zen-resources, .design-selection{
 	background-color: #314a5a;
 	border: 10px solid  #1B2932;
@@ -155,7 +148,7 @@ li{
 a{
 	color:#af992b;
 }
-/*how to make shape go to the side*/
+
 
 @media screen and (min-width: 450px) {
 	/*grid for the whole page*/
@@ -176,6 +169,9 @@ a{
 	grid-column: 1/2;
 	
 	}
+
+	/*how to make shape go to the side*/
+
 	.preamble::before {content:""; 
 		position: relative;
 		left: 120%;
